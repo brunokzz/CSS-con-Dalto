@@ -1,3 +1,4 @@
+/*TIPOS DE SELECTORES*/
 /*Universal*/
 * {
 	font-family: sans-serif;
@@ -29,4 +30,14 @@
 
 .selectores span {
 	color: orange
+}
+
+
+
+
+.box_properties {
+	background-color: lime;
+	padding: 20px;
+	margin: 15px;
+	border-radius: 40px;
 }
