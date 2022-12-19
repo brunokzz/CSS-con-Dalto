@@ -11,9 +11,32 @@
 		<li class="selectores">Universal: Se pone un asterisco * que selecciona TODOS los elementos de la página. Es por este selector que toda la página tiene fuente sans-serif.</li>
 		<li class="selectores">De tipo: Selecciona todos los elementos de un mismo tipo (es decir, todos los h1, todos los p, todos los input, etc).</li>
 		<li class="selectores">Clases: Selecciona todos los elementos de una misma clase.</li>
-		<li class="selectores"></li>
-		<li class="selectores"></li>
-		<li class="selectores"></li>
+		<li class="selectores" id="id_selector">ID: Selecciona el elemento con el ID especificado.</li>
+		<li class="selectores" selector5="True">Atributo: En una determinada etiqueta, creas un atributo con el nombre que vos quieras y la podes seleccionar, como si fuera un ID.</li>
+		<li class="selectores">Descendiente: Sirve para seleccionar <b>un elemento</b> dentro de <span>otro</span> (por ejemplo, podría seleccionar todos los b dentro de un parrafo p; también podría seleccionar todos los )</li>
+		<li class="selectores">Pseudoclase: LO VEMOS MÁS ADELANTE, <a>TOCÁ ACÁ PARA IR A ESA SECCION</a></li>
 	</ul>
+<br><br><br>
+	<h3>Especificidad</h3>
+	<p>Cuando hacemos una página, a veces se suelen mezclar los estilos que escribimos (por ejemplo, a un mismo parrafo le damos dos colores). Por eso es importante saber cuáles son los niveles de autoridad de cada selector, de manera que podamos elegirlos sabiamente.</p>
+	<figure>
+		<img src="especificidad.png">
+		<figcaption>Grados de importancia en la especificidad</figcaption>
+	</figure>
+<br><br><br>
+	<h3>Unidades de medida</h3>
+	<p>Cuando, por ejemplo, queremos establecer el tamaño de letra de un título (font-size), tenemos dos opciones de unidades: las fijas (no dependen de nada, como los px, cm o mm) las relativas (dependen de cosas como el tamaño de la pantalla, el tamaño del contenedor, etc). Algunos ejemplos son los em (1em=16px) y los viewport (hay de dos tipos: viewport width o vw, y viewport height o vh)</p>
+	<p>El div azul ocupa la mitad de la pantalla porque tiene 50vw, y aunque se modifique el tamaño de la ventana, el div seguirá ocupando ese espacio.</p>
+	<div style="width: 50vw; height: 10vh; background-color: blue;"></div>
+<br><br><br>
+	<h3>Propiedades de texto</h3>
+	<ul>
+		<li>Font-size, tamaño de letra</li>
+		<li>Font-family, es la tipografía (osea, el tipo de letra)</li>
+		<li>Line-height, es el espacio que ocupa un determinado texto (NO es lo mismo que el font-size; el line-height incluye también el espacio vacío arriba y abajo de la letra). Por ejemplo, <span style="line-height: 1; color: blue">Este texto tiene line-height=1</span><br><span style="line-height: 4; color: orange"> y este otro tiene line-height=4</span></li>
+		<li>Font-weight, es el grosor de la letra</li>
+		<li>Font-variant, no lo explicó pero lo guardo</li>
+	</ul>
+<br><br><br>
 </body>
 </html>

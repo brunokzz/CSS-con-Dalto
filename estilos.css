@@ -1,7 +1,32 @@
+/*Universal*/
 * {
 	font-family: sans-serif;
 }
 
+
+/*Clase*/
 .selectores {
-	color: brown;
+	color: #2d2994;
+}
+
+
+/*ID*/
+#id_selector {
+	font-family: cursive;
+}
+
+
+/*Atributo*/
+[selector5="True"] {
+	font-size: 20px
+}
+
+
+/*Descendiente*/
+.selectores b {
+	color: red
+}
+
+.selectores span {
+	color: orange
 }
